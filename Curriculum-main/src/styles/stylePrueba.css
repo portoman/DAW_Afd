@@ -1,0 +1,81 @@
+body{
+    margin: 4% 20%;
+    display: grid;
+    grid-template-areas:
+    'nombre nombre foto'
+    'datos datos datos'
+    'footer footer footer';
+    border:5px solid blue;
+    padding:10px;
+    border-radius: 10px;
+    background-color: grey;
+    background-image: url("/Curriculum/src/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{grid-area: nombre;}
+.foto{grid-area: foto;}
+.datos{grid-area: datos;}
+footer{grid-area: footer;}
+
+header{
+    font-size: 30px;
+    color: cornflowerblue(128, 58, 0);
+    text-shadow: 1px 1px 1px;
+}
+header>h1{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+header>h1:hover{
+color: white;
+background-color: black;
+}
+
+
+#foto{
+    width: 80%;
+    border-radius: 100px;
+    margin-left: 10%;
+    
+}
+h2{
+    font-size: 30px;
+}
+.datos{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+.titulos{
+    color: blue;
+    border: 5px solid green;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 300px;
+    background-color: white;
+}
+.calidad{
+    font-size: 30px;
+}
+
+
+
+.tecnico{
+    color:crimson
+}
+
+footer{
+    text-align: center;
+    color: aquamarine;
+    background-color: blue;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+}
