@@ -1,0 +1,33 @@
+.tituloNoticia{
+    background-color: coral;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+
+h2{
+    margin: 1%;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+}
+
+article{
+    background-color: darksalmon;
+    padding:1%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+
+.short{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.full{
+    font-size: 18px;
+    text-indent: 30px;
+}
