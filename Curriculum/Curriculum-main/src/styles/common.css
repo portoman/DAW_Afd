@@ -25,26 +25,30 @@ header>h1{
     text-shadow: 1px 1px 1px black;
 }
 
-nav{
+nav.navCabecera{
     color: black;
+    display: flex;
 }
-nav>ul{
+nav>ul.enlacesCabecera{
     list-style: none;
-    margin-left: -3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-left: 0%;
 }
 a{
     text-decoration: none;
     font-size: 20px;
+    min-width: 25%;
 }
 
 nav>ul.enlacesCabecera>a>li{
-    width: 45%;
+    width: 100%;
     background-color: rgb(122, 198, 201);
-    float: left;
     text-align: center;
     border: 1px solid black;
     margin: 1% 1%;
-    padding: 1%;
+    padding: 3% 0%;
     box-shadow: 2px 2px 2px black;
     transition: 100ms;
     border-radius: 5px;

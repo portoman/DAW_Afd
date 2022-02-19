@@ -15,17 +15,21 @@ article{
     background-color: darksalmon;
     box-shadow: 1px 1px 1px black;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 article h2{
     margin: 1%;
     color: blue;
     text-shadow: 1px 1px 1px black;
     letter-spacing: 1px;
+    text-indent: 10px;
     
 }
 article p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    text-indent: 10px;
 }
 article button{
     background-color: blue;
@@ -56,7 +60,7 @@ article button{
 }
 
 .categorias li{
-    margin-top: 22%;
+    margin: 18% 0%;
     font-size: 2vw;
     text-shadow: 1px 1px 1px black;
     margin-right: 48%;
