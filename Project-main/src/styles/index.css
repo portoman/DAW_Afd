@@ -1,0 +1,26 @@
+.d-block{
+    height: 300px;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.fotoModelo {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .fotoPrecio {
+    position: absolute;
+    top: 30px;
+    right: 16px;
+  }
+  .fotoKm {
+    position: absolute;
+    top: 52px;
+    right: 16px;
+  }
+
